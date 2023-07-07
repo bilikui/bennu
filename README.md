@@ -1,30 +1,20 @@
-# TourGuru
+# Challenge Bennu
+# Laravel 9
 
 ### Environment
 Declare executable
 ```shell
-chmod +x ./tour.sh
+1) php artisan migrate
+2) php artisan db:seed --class=UsersSeeder
+3) php artisan db:seed --class=ClientsSeeder
+4) php artisan db:seed --class=ServicesSeeder
 ```
 
-Up
-```shell
-./tour.sh up
-```
-
-Down
-```shell
-./tour.sh down
-```
-
-Help
-```shell
-./tour.sh
-```
 
 --------------
 
-### Frontend
-Development with frontend
+### Reporte por artisan
 ```shell
-npm run dev
+php artisan report:suscriptions
+php artisan report:suscriptions  --date=Y-m-d
 ```
