@@ -2,7 +2,7 @@
 # Laravel 9
 
 ### Environment
-Declare executable
+Commands
 ```shell
 1) php artisan migrate
 2) php artisan db:seed --class=UsersSeeder
