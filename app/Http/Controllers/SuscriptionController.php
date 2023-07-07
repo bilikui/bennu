@@ -11,6 +11,12 @@ use Illuminate\Support\Facades\Auth;
 
 class SuscriptionController extends Controller
 {
+    /**
+     * Suscribes to service by user and number client, service and date
+     * 
+     * @param Request $request
+     * @return string
+     */
     public function suscribe(Request $request)
     {
         $validated = $request->validate([
@@ -59,6 +65,12 @@ class SuscriptionController extends Controller
         }
     }
 
+    /**
+     * Unsuscribes to service by user and number client, service
+     * 
+     * @param Request $request
+     * @return string
+     */
     public function unsuscribe(Request $request)
     {
         $validated = $request->validate([
