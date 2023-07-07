@@ -30,7 +30,7 @@ Response;
 }
 
 2) PUT - /api/suscribe
-Suscribe un usuario a un servicio y un cliente
+Suscribe un usuario y un cliente a un servicio
 
 Headers:
 Token Bearer: {{ token }}
@@ -49,7 +49,7 @@ Response:
 }
 
 3) PUT - /api/unsuscribe
-Desuscribe o cancelo un usuario a un servicio y un cliente
+Desuscribe o cancela un usuario y un cliente a un servicio
 
 Headers:
 Token Bearer: {{ token }}
